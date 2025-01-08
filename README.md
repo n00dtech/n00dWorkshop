@@ -2,7 +2,7 @@
 
 ### Welcome to n00dWorkshop!
 
-n00dWorkshop is a comprehensive integration of all plugins offered by n00dbeaverStudios for Unreal Engine. This unified project allows developers to explore, dissect, and tailor these tools to fit their specific project needs while providing practical insights into how each component interacts seamlessly.
+n00dWorkshop is a comprehensive integration of all plugins offered by n00dtech for Unreal Engine. This unified project allows developers to explore, dissect, and tailor these tools to fit their specific project needs while providing practical insights into how each component interacts seamlessly.
 
 This example project in the main repository is developed in C++ due to the requirements of the Binary Editor. When cloning submodules, you'll need to manually compile them. Alternatively, if you prefer using plugins directly from the Launcher, simply drop them into the Plugins folder of the project download from the Releases, and they should integrate seamlessly with this project.
 
@@ -34,16 +34,16 @@ This project leverages permanantly free assets that are available on the marketp
 Please visit the Launcher to download these assets and add them to this project manually. 
 
 ### Verification
-If you own the plugins but do not have repository access, visit [Verification](https://www.n00dbeaverstudios.com/verification) to verify your ownership and gain the necessary access.
+If you own the plugins but do not have repository access, visit [Verification](https://www.n00dtech.com/verification) to verify your ownership and gain the necessary access.
 
 ## Getting Started
 
-The following only applies to cloning main to receive the latest and greatest, see [Releases](https://github.com/n00dbeaverstudios/n00dWorkshop/releases) to download the Binary version of this project where you can simply add the required plugins to the Plugins folder!
+The following only applies to cloning main to receive the latest and greatest, see [Releases](https://github.com/n00dtech/n00dWorkshop/releases) to download the Binary version of this project where you can simply add the required plugins to the Plugins folder!
 
 ### Clone the Project
 To clone n00dWorkshop along with all associated submodules, execute the following commands in your terminal:
 ```bash
-git clone https://github.com/n00dbeaverstudios/n00dWorkshop.git
+git clone https://github.com/n00dtech/n00dWorkshop.git
 cd n00dWorkshop
 git submodule update --init --recursive
 ```
@@ -61,7 +61,7 @@ Now that you've cloned the repositories, we must generate visual studio files fo
 
 Right-click on n00dWorkshop.uproject and select `Generate Visual Studio Project Files`
 
-![image](https://github.com/n00dbeaverstudios/n00dWorkshop/assets/20903421/b0409a19-1a48-4a93-abfe-5a7262da3f34)
+![image](https://github.com/n00dtech/n00dWorkshop/assets/20903421/b0409a19-1a48-4a93-abfe-5a7262da3f34)
 
 Once this is complete, double-click the project file and you will be prompted to compile the project. Go ahead and do this, it may take a few minutes.
 
